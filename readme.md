@@ -32,4 +32,12 @@ ___
 Это ссылка на последний коммит. Лежит в виде ссылки в файле HEAD  в папке .git
 
 
+## А это пример изменения статусов файлов с описанием в формате mermaid
+
+```mermaid
+graph LR;
+  untracked -- "git add" --> staged;
+  staged    -- "commit" --> tracked/comitted;
+```
+
 
