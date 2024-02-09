@@ -24,3 +24,12 @@ examine the history and state (see also: git help revisions)
 
    *status*    Show the working tree status
 
+___
+
+## Про HEAD
+
+
+Это ссылка на последний коммит. Лежит в виде ссылки в файле HEAD  в папке .git
+
+
+
